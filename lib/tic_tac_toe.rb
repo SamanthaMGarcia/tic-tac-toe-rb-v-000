@@ -96,5 +96,5 @@ def winner(board)
 end
 
 def play(board)
-  allow($stdout).to receive(:puts)
+  
   
