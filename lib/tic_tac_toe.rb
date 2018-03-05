@@ -97,6 +97,5 @@ end
 
 def play(board)
   turn(board)
-  allow($stdout).to receive(:puts)
-  allow(self).to receive(:over?).and_return(false, true)
+  
   
