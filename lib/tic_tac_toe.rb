@@ -99,6 +99,11 @@ def play(board)
  while !over?(board)
   turn(board)
   end
+  if won?(board)
+    "Congratulations "
+  elsif draw?(board)
+  "The game has concluded in a draw!"
+  end
 end
 
 
